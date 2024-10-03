@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, serif;
+}
+
+.main {
+    background-image: url("../images/bg.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.header {
+    padding: 35px 0 35px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.menu {
+    display: inline-block;
+    margin-left: 281px;
+}
+
+.menu-item {
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.menu-item a {
+    font-size: 16px;
+    color: rgb(237, 224, 248);
+    line-height: 1.2;
+    text-decoration: none;
+}
+
+.website-layout {
+    padding: 150px 0 205px 0    ;
+}
+
+.website-layout-title {
+    font-size: 45px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.222;
+    max-width: 452px;
+    margin-bottom: 80px;
+}
+
+.text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.2px;
+}
+
+.text.white-text {
+    color: rgb(255, 255, 255);
+    margin-bottom: 99px;
+}
+
+.text.violet-text {
+    color: rgb(49, 27, 94);
+    margin-bottom: 15px;
+}
+
+.text img {
+    vertical-align:bottom;
+    margin-right: 14px;
+}
+
+.button {
+    width: 224px;
+    height: 60px;
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 3.438;
+    cursor: pointer;
+}
+
+.button.button-white {
+    border: 2px solid white;
+    color: white;
+}
+
+.button.button-purple {
+    border: 2px solid #b180e4;
+    color: #b180e4;
+    margin: 10px 0 44px 0;
+}
+
+.course-features-container {
+    padding: 140px 0 125px 0;
+}
+
+.course-features-title  {
+    font-size: 35px;
+    color: rgb(139, 103, 214);
+    font-weight: bold;
+    line-height: 1.571;
+    margin-bottom: 75px;
+}
+
+.professional-learning {
+    background-image: url("../images/bg2.png");
+    background-position: center;
+    background-size: cover;
+    padding-top: 140px;
+}
+
+.professional-learning-container {
+    width: 996px;
+    margin: 0 auto 140px auto;
+    text-align: center;
+    background-color: white;
+    border-radius: 20px;
+    padding-top: 60px;
+}
+
+.professional-learning-lille {
+    font-size: 35px;
+    color: rgb(139, 103, 214);
+    font-weight: bold;
+    line-height: 1.571;
+    margin-bottom: 10px;
+}
+
+.professional-learning-text {
+    font-size: 16px;
+    color: rgb(49, 27, 94);
+    line-height: 1.5;
+    width: 588px;
+    margin: 30px auto;
+}
+
+.footer {
+    padding: 46px 0;
+    text-align: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+
